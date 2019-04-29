@@ -29,18 +29,18 @@ Instructions for building loramac, written in Russian:
     модифицировать переменную среды системы PATH, добавив C:\openocd\bin-x64\
     
 5.  Скачать Visual Studio Code
-    установить расширения (ctrl + shift + x):
-        C/C++
-        CMake
-        CMake Tools
-        Native Debug
-    в настройка Visual Studio Code прописать (File->Preferences->Settings): 
-        UserSettings->Extensions->Cmake Configuration:
-            CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
-        чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
-           "cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
+установить расширения (ctrl + shift + x):
+  * C/C++
+  * CMake
+  * CMake Tools
+  * Native Debug
+в настройка Visual Studio Code прописать (File->Preferences->Settings): 
+UserSettings->Extensions->Cmake Configuration:
+CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
+чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
+"cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
         
-        в итоге файл настроек VSCode settings.json будет выглядеть так: 
+в итоге файл настроек VSCode settings.json будет выглядеть так: 
 ```json
 {
     "cmake.cmakePath": "C:/PROGRA~1/CMake/bin/cmake.exe",
@@ -50,9 +50,9 @@ Instructions for building loramac, written in Russian:
 
 6. Склонировать репозиторий https://github.com/Lora-net/LoRaMac-node.git
 Переключиться на ветку feature/5.0.0
-    Открыть директорию репозитория в VSCode
-    Дождаться, пока расширение Cmake tools сгенерирует файлы
-    Добавить переменные файла .vscode/settings.json:
+Открыть директорию репозитория в VSCode
+Дождаться, пока расширение Cmake tools сгенерирует файлы
+Добавить переменные файла .vscode/settings.json:
 ```json
 "cmake.configureSettings": {
     ...
