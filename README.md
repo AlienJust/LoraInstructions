@@ -6,7 +6,7 @@ https://cmake.org/download/ (x64 installer). Во время установки 
 
 2. ARM gcc compilers (SHA2 подписанные для Win7+, второй пункт в загруках). 
 **Качать надо не последнюю версию из-за бага: https://devzone.nordicsemi.com/f/nordic-q-a/43354/linker-error-address-out-of-range-for-intel-hex-files**. Качать 7 2018-q2-update: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads. Отметить флажок на модификацию PATH (остальные тоже оставить отмеченными, разве что readme убрать)
-Также модифицировать системную переменную среды PATH, добавив: C:\Program Files (x86)\GNU Tools ARM Embedded\8 2018-q4-major\bin
+Также модифицировать системную переменную среды PATH, добавив: C:\Program Files (x86)\GNU Tools ARM Embedded\7 2018-q2-major\bin
     
 3. MSYS2, http://www.msys2.org (скачать инсталлятор x86_x64). MSYS2 использует менеджер пакетов pacman (аналогично Arch Linux, Manjaro Linux). В консольном окне MSYS2 выполнить:
     * pacman -Syu
