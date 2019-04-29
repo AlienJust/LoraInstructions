@@ -51,5 +51,9 @@ Instructions for building loramac, written in Russian:
     Открыть директорию репозитория в VSCode
     Дождаться, пока расширение Cmake tools сгенерирует файлы
     Добавить переменные файла .vscode/settings.json:
+        "cmake.configureSettings": {
+        ...
         "TOOLCHAIN_PREFIX":"C:/PROGRA~2/GNUTOO~1/72018-~1",
         "OPENOCD_BIN":"C:/openocd/bin-x64/openocd.exe",
+        ...
+        }
