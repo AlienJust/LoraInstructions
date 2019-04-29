@@ -41,10 +41,10 @@ Instructions for building loramac, written in Russian:
            "cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
         
         в итоге файл настроек VSCode settings.json будет выглядеть так: 
-        ```{
+        ````{
             "cmake.cmakePath": "C:/PROGRA~1/CMake/bin/cmake.exe",
             "cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
-        }```
+        }````
 
 6.  Склонировать репозиторий https://github.com/Lora-net/LoRaMac-node.git
     Переключиться на ветку feature/5.0.0
