@@ -9,12 +9,12 @@ https://cmake.org/download/ (x64 installer). Во время установки 
 Также модифицировать системную переменную среды PATH, добавив: C:\Program Files (x86)\GNU Tools ARM Embedded\8 2018-q4-major\bin
     
 3. MSYS2, http://www.msys2.org (скачать инсталлятор x86_x64). MSYS2 использует менеджер пакетов pacman (аналогично Arch Linux, Manjaro Linux). В консольном окне MSYS2 выполнить:
-  * pacman -Syu
-  * закрыть окно (можно принудительно)
-  * открыть окно используя ярлык меню Пуск -> MSYS2 MSYS и выполнить команды:
-  * pacman -Su
-  * pacman -S mingw-w64-x86_64-make
-  * добавить в переменную среды системы PATH путь: C:\msys64\mingw64\bin
+    * pacman -Syu
+    * закрыть окно (можно принудительно)
+    * открыть окно используя ярлык меню Пуск -> MSYS2 MSYS и выполнить команды:
+    * pacman -Su
+    * pacman -S mingw-w64-x86_64-make
+    * добавить в переменную среды системы PATH путь: C:\msys64\mingw64\bin
 
 4. Скачать неофициальную сборку openoc: http://www.freddiechopin.info/en/download/category/4-openocd и распаковать в C:\openocd\. Модифицировать переменную среды системы PATH, добавив C:\openocd\bin-x64\
     
@@ -23,7 +23,6 @@ https://cmake.org/download/ (x64 installer). Во время установки 
     * CMake
     * CMake Tools
     * Native Debug
-
 В настройка Visual Studio Code прописать (File->Preferences->Settings): 
 UserSettings->Extensions->Cmake Configuration:
 CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
