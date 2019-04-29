@@ -2,7 +2,6 @@
 Instructions for building loramac, written in Russian:
 ## Установка и настройка
 1. Cmake, 
-
 https://cmake.org/download/ (x64 installer). Во время установки установить флажок "Модифицировать переменную окружения (среды) PATH для всех юзеров"
 
 2. ARM gcc compilers (SHA2 подписанные для Win7+, второй пункт в загруках). 
