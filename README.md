@@ -6,7 +6,7 @@ Instructions for building loramac, written in Russian:
     во время установки установить флажок "Модифицировать переменную окружения (среды) PATH для всех юзеров"
 
 2.  ARM gcc compilers (SHA2 подписанные для Win7+, второй пункт в загруках)
-    Качать надо не последнюю версию из-за бага: https://devzone.nordicsemi.com/f/nordic-q-a/43354/linker-error-address-out-of-range-for-intel-hex-files
+    **Качать надо не последнюю версию из-за бага: https://devzone.nordicsemi.com/f/nordic-q-a/43354/linker-error-address-out-of-range-for-intel-hex-files**
     Качать 7 2018-q2-update: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
     
     Отметить флажок на модификацию PATH (остальные тоже оставить отмеченными, разве что readme убрать)
