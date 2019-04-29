@@ -23,11 +23,12 @@ https://cmake.org/download/ (x64 installer). Во время установки 
     * CMake
     * CMake Tools
     * Native Debug
-В настройка Visual Studio Code прописать (File->Preferences->Settings): 
-UserSettings->Extensions->Cmake Configuration:
-CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
-чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
-"cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
+
+  В настройка Visual Studio Code прописать (File->Preferences->Settings): 
+  UserSettings->Extensions->Cmake Configuration:
+  CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
+  чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
+  "cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
         
 в итоге файл настроек VSCode settings.json будет выглядеть так: 
 ```json
