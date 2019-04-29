@@ -34,7 +34,8 @@ Instructions for building loramac, written in Russian:
   * CMake
   * CMake Tools
   * Native Debug
-в настройка Visual Studio Code прописать (File->Preferences->Settings): 
+
+В настройка Visual Studio Code прописать (File->Preferences->Settings): 
 UserSettings->Extensions->Cmake Configuration:
 CMake path изменить на C:/PROGRA~1/CMake/bin/cmake.exe
 чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
