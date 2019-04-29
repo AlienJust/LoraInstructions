@@ -30,7 +30,7 @@ https://cmake.org/download/ (x64 installer). Во время установки 
     чуть ниже выбрать пункт "Edit settings.json" и дописать строку: 
     "cmake.preferredGenerators": ["MinGW Makefiles", "Ninja", "Unix Makefiles" ]
         
-в итоге файл настроек VSCode settings.json будет выглядеть так: 
+    в итоге файл настроек VSCode settings.json будет выглядеть так: 
 ```json
 {
     "cmake.cmakePath": "C:/PROGRA~1/CMake/bin/cmake.exe",
